@@ -14,7 +14,7 @@ pipeline
 
         stage('Build') {
             steps {
-                sh 'npm --version'
+                bat 'javac Student.java'
             }
         }
     }
