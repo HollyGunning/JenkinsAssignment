@@ -13,7 +13,7 @@ pipeline
 
         stage('Build') {
             steps {
-                bat 'javac Student.java'
+                bat 'javac -cp junit-4.13.jar; Student.java studentTest.java'
             }
         }
     }
